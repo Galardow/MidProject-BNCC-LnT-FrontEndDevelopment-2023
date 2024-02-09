@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+/* NAVIGATION */
+
+nav {
+    height: 5rem;
+    background: linear-gradient(90deg, transparent, rgb(108, 204, 236), rgb(108, 204, 236));
+    display: flex;
+    align-items: center;
+    padding-inline: 2rem;
+    position: relative;
+    z-index: 9999;
+}
+
+.logo_img {
+    width: 15%;
+}
+
+.nav_option {
+    display: flex;
+    gap: 5rem;
+}
+
+.option {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.option:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* CONTENT */
+
+.hero {
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+}
+
+.lecturer {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#lecturer_div {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.lecturer_image {
+    width: 5rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#lecturer_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#lecturer_name {
+    font-weight: bold;
+}
+
+#more_info {
+    width: 5rem;
+    height: 1.5rem;
+    border: none;
+    background-color: rgb(108, 204, 236);
+    border-radius: 3px;
+    font-weight: bold;
+}
+#more_info:hover {
+    transform: scale(110%);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.information {
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+#card {
+    background-color: rgb(108, 204, 236);
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    margin: auto;
+    width: 60rem;
+    height: 27rem;
+    position: absolute;
+}
+
+.front-end_toggle {
+    gap: 2rem;
+    display: flex;
+}
+
+.front-end_card {
+    display: none;
+}
+
+.front-end_card.active {
+    display: block;
+}
+
+.ui-ux_toggle {
+    gap: 2rem;
+    display: flex;
+}
+
+.ui-ux_card {
+    display: none;
+}
+
+.ui-ux_card.active {
+    display: block;
+}
+
+.back-end_toggle {
+    gap: 2rem;
+    display: flex;
+}
+
+.back-end_card {
+    display: none;
+}
+
+.back-end_card.active {
+    display: block;
+}
+
+#card_image {
+    width: 27rem;
+    border-radius: 2rem;
+    border-right: 1px solid black;
+}
+
+#lecturer_card_name {
+    font-size: 3rem;
+}
+
+#lecturer_description {
+    font-family: Calibri;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(108, 204, 236);
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+}
